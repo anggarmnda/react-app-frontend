@@ -1,0 +1,109 @@
+
+.main-container {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+}
+.container h2 {
+    margin: 40px;
+    justify-content: space-between;
+}
+.columns {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    margin-left: 150px;
+    border-radius: 5px;
+    display: flex;
+}
+.column {
+    /* margin-left: 30px; */
+    text-align: center;
+    width: 885px;
+    display: flex;
+
+}
+.table {
+    margin: 10px;
+    border-radius: 7px;
+}
+.table thead tr th {
+    text-align: center;
+}
+.table tbody tr td {
+    font-size: 13px;
+}
+.search {
+    background-color:rgb(255, 255, 255) ;
+    width: 900px;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 150px;
+}
+.searching {
+    width: 880px;
+}
+
+.search .searching .input {
+    width: 800px;
+    background-color: transparent;
+}
+.search .searching .input:focus {
+    outline: none;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.search .searching .button-search {
+    font-size: 12px;
+    height: 32px;
+    width: 100px;
+    margin-top: 2px;
+    background-color: rgb(242, 71, 71);
+    color: white;
+    border-color: transparent;
+    border-radius: 20%;
+}
+.button-add {
+    border-color: transparent;
+    width: 120px;
+    height: 34px;
+    margin-left: 550px;
+    background-color: rgb(252, 191, 112);
+}
+
+.button-add a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+.button-edit {
+    height: 28px;
+    width: 60px;
+    background-color: lightgray;
+    border-color: transparent;
+    border-bottom-left-radius: 10px;
+}
+.button-edit a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.button-delete {
+    height: 28px;
+    width: 60px;
+    border-color: transparent;
+    color: white;
+    background-color:rgb(242, 71, 71);
+    border-top-right-radius: 10px;
+}
+.button-delete a{
+    font-size: 12px;
+}
+
+@media  screen and (max-width: 800px) {
+    .search .searching .column .columns {
+        width: 70vh;
+    }
+}

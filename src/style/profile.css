@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins';
+}
+
+.container-row {
+
+    padding-top: 40px;
+}
+.emp-profile{
+    padding-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 8px;
+    border-radius: 0.5rem;
+    background: #fff;
+
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head {
+    margin-top: 40px;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #444;
+}
+.profile-edit-btn{
+    color: #6c757d;
+    cursor: pointer;
+}
+.profile-edit-btn a {
+    text-decoration: none;
+    color: white;
+}
+.profile-edit-btn:hover{
+    color: #fff;
+    background-color:rgb(242, 71, 71);
+    transition: 0.3s ease-in-out;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+}
+.about-content {
+    position: absolute;
+    margin-left: 50px;
+    padding-left: 55px;
+    width: 700px;
+    height: 380px;
+
+}
+.about-content .table-row{
+    height: fit-content;
+}

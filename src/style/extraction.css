@@ -1,0 +1,29 @@
+.download {
+    height: 50px;
+    padding-top: 5px;
+}
+
+
+.download .button-json {
+    background-color: white;
+    border-color: black;
+    color: black;
+    font-size: 13px;
+}
+.download .button-json:hover {
+    background-color:rgb(242, 71, 71);
+    border-color: rgb(242, 71, 71);
+    color: white;
+}
+.download .button-csv {
+    background-color: white;
+    border-color: black;
+    color: black;
+    font-size: 13px;
+}
+
+.download .button-csv:hover{
+    background-color:rgb(242, 71, 71);
+    border-color: rgb(242, 71, 71);
+    color: white;
+}

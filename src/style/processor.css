@@ -1,0 +1,50 @@
+.parser-setup {
+    width: 400px;
+}
+
+.model-setup {
+    /* background-color: crimson; */
+}
+
+.model-setup p {
+    margin-bottom: -3px;
+    font-family:Verdana;
+    font-size: 14px;
+}
+
+.model-setup .model-radio {
+    margin: 20px 0px;
+}
+
+.button-model {
+}
+
+.button-model .button-model-save {
+    background-color: rgb(211, 209, 209);
+    border-color: rgb(211, 209, 209);
+    margin: 0px 10px;
+}
+
+.button-model .button-model-save:hover {
+    background-color: rgb(242, 71, 71);
+    border-color: rgb(242, 71, 71);
+}
+
+.button-model .button-test-model {
+    background-color: rgb(211, 209, 209);
+    border-color: rgb(211, 209, 209);
+    margin: 0px 10px;
+}
+
+.button-model .button-test-model:hover {
+    background-color: rgb(242, 71, 71);
+    border-color: rgb(242, 71, 71);
+}
+
+.model-setup .form-size1 {
+    height: 80px;
+}
+
+.model-setup .form-size2 {
+    height: 100px;
+}

@@ -1,0 +1,71 @@
+* {
+    font-family: 'Poppins';
+}
+.login-box {
+    background-color: rgb(242, 71, 71);
+    width: 1800px;
+    
+}
+
+.login-content {
+    background-color: rgb(244, 243, 243);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.login-content h5 {
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: rebeccapurple;
+}
+
+.login-content h6 {
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-left: 60px;
+    margin-top: 130px;
+    color: black;
+    font-size: 14px;
+}
+.login-content a {
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-content p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins' sans-serif;
+    padding: 20px;
+}
+
+.login-form {
+    width: 300px;
+    border-color: transparent;
+    margin: auto;
+}
+
+.login-form .input {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.login-form .input:focus {
+    outline: none;
+}
+.button {
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 50px;
+    border-color: transparent;
+    width: 333px;
+    background-color: rgb(220, 220, 220);
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
